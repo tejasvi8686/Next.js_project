@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import {
@@ -33,13 +32,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-          Hi 
+            Hi
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-           
               I'm
             </span>
-         Tejasvi Raj
-         <span className="animate-ping">|</span>
+            Tejasvi Raj
+            <span className="animate-ping">|</span>
           </span>
         </motion.div>
 
@@ -47,8 +45,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-       
-          I'm a skilled Frontend Web Developer with experience in JavaScript and expertise in frameworks/library like React.js, Tailwind, Bootstap and MUI. I'm a quick learner and collaborate closely with clients to create efficientm scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+          I'm a skilled Frontend Web Developer with experience in JavaScript and
+          expertise in frameworks/library like React.js, Tailwind, Bootstap and
+          MUI. I'm a quick learner and collaborate closely with clients to
+          create efficientm scalable, and user-friendly solutions that solve
+          real-world problems. Let's work together to bring your ideas to life!
         </motion.p>
         <motion.a
           href="https://drive.google.com/file/d/1coRcQtPhLvBdsPDI6sfWCs_LumO5EFF3/view?usp=drivesdk"
