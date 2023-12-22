@@ -35,8 +35,8 @@ const HeroContent = () => {
           <span>
           Hi 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              I'm{" "}
+           
+              I'm
             </span>
          Tejasvi Raj
          <span className="animate-ping">|</span>
