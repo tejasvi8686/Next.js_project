@@ -37,7 +37,7 @@ const HeroContent = () => {
               I'm
             </span>
             Tejasvi Raj
-            <span className="animate-ping">|</span>
+           
           </span>
         </motion.div>
 
